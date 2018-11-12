@@ -24,7 +24,7 @@
 
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar héroe" aria-label="Buscar" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="buscarHeroe(buscarTexto.value)">Buscar</button>
         </form>
 
     </div>

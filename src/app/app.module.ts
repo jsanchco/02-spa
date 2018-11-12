@@ -13,6 +13,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { HeroesEncontradosComponent } from './components/heroes-encontrados/heroes-encontrados.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
+
 
 // Services
 import { HeroesService } from './services/heroes.services';
@@ -24,7 +27,9 @@ import { HeroesService } from './services/heroes.services';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    HeroesEncontradosComponent,
+    HeroeTarjetaComponent,
   ],
   imports: [
     BrowserModule,
